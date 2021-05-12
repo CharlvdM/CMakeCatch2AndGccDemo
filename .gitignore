@@ -1,2 +1,10 @@
 /.vs/*
 /out/*
+*.cmake
+/CMakeCache.txt
+*/CMakeFiles/*
+/CMakeFiles/*
+*.exe
+*.a
+*/Makefile
+/Makefile
