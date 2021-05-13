@@ -5,14 +5,14 @@ Date: May 2021
 This project is setup to illustrate the basics of using CMake (with CMakeLists files), Catch2 and GCC.
 
 # Getting Started
-Clone the project and open Visual Studio, using the "Open a local folder" option, on the CMakeAndCatch2Demo directory. The configured CMakeLists.txt files should allow you to compile and run the 
+Clone the project (make sure that the "initialize all submodels" checkbox is ticked) and open Visual Studio, using the "Open a local folder" option, on the CMakeAndCatch2Demo directory. The configured CMakeLists.txt files should allow you to compile and run the 
 project without any additional configuration required, i.e. Visual Studio understands how to do so based on the CMakeLists.txt files. If main.cpp is run, an angle is incremented by 33.5 degrees 
 and is bound to 0 to 360 degrees. I know this is a pretty boring program, but illustrating how the tools used in this project works is what is of importance here.
 
 # Project Folder Structure
 - MainCode: Contains the main project executable (main.cpp), additional files with functions used by the project and Catch2 test cases for these functions.
 - Lib: Contains a library of code that could be used in the project. All of the functions in the library is tested with Catch2 test cases.
-- Catch2: The entire Catch2 library.
+- Catch2: The entire Catch2 library. Catch2 is configured as a submodule on git.
 - Scripts: Batch files to compile and run the project using GCC
 
 # Catch2
