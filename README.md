@@ -1,3 +1,6 @@
+Project Author: Charl van de Merwe  
+Date: May 2021
+
 # Overview
 This project is setup to illustrate the basics of using CMake (with CMakeLists files), Catch2 and GCC.
 
