@@ -2,6 +2,7 @@
 #define FUNCTIONS_H_
 
 /// \file functions.h
+/// Author: Charl van de Merwe
 
 #include "TE_Float.h"
 

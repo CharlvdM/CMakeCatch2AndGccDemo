@@ -2,6 +2,7 @@
 #define TE_FLOAT_H_
 
 /// \file TE_Float.h
+/// Author: Philip Botha
 /// Float is defined and the size is validated to ensure AUTOSAR compliance.
 
 #include <limits>

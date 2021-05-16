@@ -1,4 +1,4 @@
 [submodule "Catch2"]
 	path = Catch2
-	url = https://transnetengineering.visualstudio.com/RnDSharedRepositories/_git/Catch2
-	branch = heads/main
+	url = https://github.com/catchorg/Catch2.git
+	branch = v2.x

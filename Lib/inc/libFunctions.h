@@ -2,6 +2,7 @@
 #define LIBFUNCTIONS_H_
 
 /// \file libFunctions.h
+/// Author: Charl van de Merwe
 
 #include "TE_Float.h"
 #include <cstdint>

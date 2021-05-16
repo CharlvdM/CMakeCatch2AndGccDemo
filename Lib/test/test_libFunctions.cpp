@@ -1,3 +1,6 @@
+/// \file test_libFunctions.cpp
+/// Author: Charl van de Merwe
+
 #include <catch2/catch.hpp>
 // Include the header files of the units to be tested here
 #include "libFunctions.h"

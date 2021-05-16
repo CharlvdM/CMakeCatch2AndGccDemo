@@ -5,15 +5,15 @@ Date: May 2021
 This project is setup to illustrate the basics of using CMake (with CMakeLists files), Catch2 and GCC.
 
 # Getting Started
-Clone the project (make sure that the "initialize all submodels" checkbox is ticked) and open Visual Studio, using the "Open a local folder" option, on the CMakeAndCatch2Demo directory. The configured CMakeLists.txt files should allow you to compile and run the 
+Clone the project (make sure that the "initialize all submodules" check-box is ticked if using Git Extensions) and open Visual Studio, using the "Open a local folder" option, on the CMakeAndCatch2Demo directory. The configured CMakeLists.txt files should allow you to compile and run the 
 project without any additional configuration required, i.e. Visual Studio understands how to do so based on the CMakeLists.txt files. If main.cpp is run, an angle is incremented by 33.5 degrees 
 and is bound to 0 to 360 degrees. I know this is a pretty boring program, but illustrating how the tools used in this project works is what is of importance here.
 
 # Project Folder Structure
 - MainCode: Contains the main project executable (main.cpp), additional files with functions used by the project and Catch2 test cases for these functions.
 - Lib: Contains a library of code that could be used in the project. All of the functions in the library is tested with Catch2 test cases.
-- Catch2: The entire Catch2 library. Catch2 is configured as a submodule on git.
-- Scripts: Batch files to compile and run the project using GCC
+- Catch2: The entire Catch2 library. Catch2 is configured as a submodule on git, referenced to the [Catch2 repository](https://github.com/catchorg/Catch2.git).
+- Scripts: Batch files to compile and run the project using GCC.
 
 # Catch2
 Catch2 is used to test all of the functions in the project. 
@@ -23,7 +23,7 @@ Catch2's Git documentation is pretty good and sufficient: [Tutorials](https://gi
 The behaviour driven development style is generally preferred: [BBD-Style](https://github.com/catchorg/Catch2/blob/v2.x/docs/tutorial.md#bdd-style)
 
 # CMake
-CMake is used to configure the project, so that the project is independant of the IDE and compiler. In the PCC project, this allows us to do the development (including test cases) in any IDE
+CMake is used to configure the project, so that the project is independent of the IDE and compiler. In the PCC project, this allows us to do the development (including test cases) in any IDE
 (e.g. Visual Studio or CLion) and allows us to check for compile errors and test case errors in the DevOps pipeline (which uses GCC).
 
 In this demo project, a library is configured (see Lib/CMakeLists.txt) which is then linked to the main project (see MainCode/CMakeLists.txt).
@@ -45,7 +45,7 @@ For the basics on compilers and GCC specifically, see [this tutorial](https://me
 information on GCC, see [this tutorial](https://medium.com/leclevietnam/build-c-application-with-gnu-gcc-by-command-line-gnu-make-and-cmake-a9d28a6f9764)
 
 In order to execute gcc commands from command line, the bin files of MinGW have to be added to the path variable. This can be done in the cmd prompt during runtime (will have to be done each 
-time the cmd promt is opened):
+time the cmd prompt is opened):
 
 `set PATH="%PATH%;C:\msys64\mingw64\bin;C:\msys64\mingw64\lib"`
 

@@ -1,4 +1,5 @@
 /// \file libFunctions.cpp
+/// Author: Charl van de Merwe
 
 #include "libFunctions.h"
 #include <cmath>

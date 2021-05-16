@@ -1,4 +1,5 @@
 /// \file functions.cpp
+/// Author: Charl van de Merwe
 
 #include "functions.h"
 #include "TE_Float.h"

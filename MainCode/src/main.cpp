@@ -1,4 +1,5 @@
 /// \file main_c1.cpp
+/// Author: Charl van de Merwe
 
 #include <cstdio>
 #include <windows.h>

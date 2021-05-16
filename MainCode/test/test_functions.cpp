@@ -1,3 +1,6 @@
+/// \file test_functions.cpp
+/// Author: Charl van de Merwe
+
 #include <catch2/catch.hpp>
 // Include the header files of the units to be tested here
 #include "functions.h"
