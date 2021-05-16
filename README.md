@@ -67,3 +67,7 @@ The main project or the test files can then be executed by running one of the fo
 `MainCode\MainCode_Tests.exe`
 
 Batch files are created for these commands in the Scripts folder for your double clicking convenience.
+
+Note that once the project is compiled with GCC, a CMakeCache file will be added to the top level directory. This file has to be deleted before the project can be compiled again with Visual Studio.
+
+TODO: Specify different build and cache output directories in the scripts.
