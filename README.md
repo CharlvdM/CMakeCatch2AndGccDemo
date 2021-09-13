@@ -5,9 +5,9 @@ Date: May 2021
 This project is setup to illustrate the basics of using CMake (with CMakeLists files), Catch2 and GCC.
 
 # Getting Started
-Clone the project (make sure that the "initialize all submodules" check-box is ticked if using Git Extensions) and open Visual Studio, using the "Open a local folder" option, on the CMakeAndCatch2Demo directory. The configured CMakeLists.txt files should allow you to compile and run the 
-project without any additional configuration required, i.e. Visual Studio understands how to do so based on the CMakeLists.txt files. If main.cpp is run, an angle is incremented by 33.5 degrees 
-and is bound to 0 to 360 degrees. I know this is a pretty boring program, but illustrating how the tools used in this project works is what is of importance here.
+Clone the project (make sure that the "initialize all submodules" check-box is ticked if using Git Extensions) and open Visual Studio, using the "Open a local folder" option, on the CMakeAndCatch2Demo directory. The configured CMakeLists.txt files should allow you to compile and run the project without any additional configuration required, i.e. Visual Studio understands how to do so based on the CMakeLists.txt files. If main.cpp is run, an angle is incremented by 33.5 degrees and is bound to 0 to 360 degrees. I know this is a pretty boring program, but illustrating how the tools used in this project works is what is of importance here.
+
+For those using Git Extensions, a personal access token (PAT) is needed to enable integration with the GitHub repository. See the [following tutorial](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) for generating a PAT. The token should then be entered into Git Extensions in _Repository >> Repository settings >> Plugins >> GitHub_.
 
 # Project Folder Structure
 - MainCode: Contains the main project executable (main.cpp), additional files with functions used by the project and Catch2 test cases for these functions.
