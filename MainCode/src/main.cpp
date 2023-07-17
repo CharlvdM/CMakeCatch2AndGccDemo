@@ -15,7 +15,7 @@ extern "C" int main() {
 
     while (run) {
         angle = TE::runRotatingVector(angle, 33.5F);
-        printf("Vector angle: %3.1F \n", angle);
+        printf("Vector angle: %3.1F \n", static_cast<double>(angle));
         Sleep(100UL);
     }
 }
